@@ -1,0 +1,485 @@
+[
+  {
+    "model": "M0_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": 0.011835172592806633,
+      "ci95_lower": 0.010535498554539776,
+      "ci95_upper": 0.013130392047370704
+    },
+    "brier": {
+      "difference": 0.002897959824481991,
+      "ci95_lower": 0.0025063158471200072,
+      "ci95_upper": 0.0033172833607314992
+    }
+  },
+  {
+    "model": "M1_browse_actions_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0015134628983534092,
+      "ci95_lower": -0.0018900791333212796,
+      "ci95_upper": -0.0011488224675949312
+    },
+    "brier": {
+      "difference": -0.0003943109867734545,
+      "ci95_lower": -0.0005050193663654792,
+      "ci95_upper": -0.00028880856579909024
+    }
+  },
+  {
+    "model": "M1_browse_actions_placebo",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0016107136219786957,
+      "ci95_lower": -0.0019368321808987147,
+      "ci95_upper": -0.0012873935622570477
+    },
+    "brier": {
+      "difference": -0.0004114123210933262,
+      "ci95_lower": -0.0005110709763513482,
+      "ci95_upper": -0.00031535193589450763
+    }
+  },
+  {
+    "model": "M1_browse_personal_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0009745976505513551,
+      "ci95_lower": -0.0012062790908281065,
+      "ci95_upper": -0.0007519496039328518
+    },
+    "brier": {
+      "difference": -0.0002556459340148213,
+      "ci95_lower": -0.000325252498950252,
+      "ci95_upper": -0.0001881174487480899
+    }
+  },
+  {
+    "model": "M1_browse_personal_placebo",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.00022672023351129735,
+      "ci95_lower": -0.0003460582213673915,
+      "ci95_upper": -0.00011105234158000108
+    },
+    "brier": {
+      "difference": -5.3154551454754426e-05,
+      "ci95_lower": -8.602430070801905e-05,
+      "ci95_upper": -2.1152042818504236e-05
+    }
+  },
+  {
+    "model": "M1_browse_room_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.001666616996781528,
+      "ci95_lower": -0.0019941728878893933,
+      "ci95_upper": -0.0013493133016465925
+    },
+    "brier": {
+      "difference": -0.00041857066994916374,
+      "ci95_lower": -0.000521964288475904,
+      "ci95_upper": -0.00031903969172355617
+    }
+  },
+  {
+    "model": "M1_browse_room_placebo",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0012404311781552694,
+      "ci95_lower": -0.0015277180452420093,
+      "ci95_upper": -0.000982369680917555
+    },
+    "brier": {
+      "difference": -0.0003196731009540122,
+      "ci95_lower": -0.00040660346434591275,
+      "ci95_upper": -0.00024066047915882776
+    }
+  },
+  {
+    "model": "M1_browse_time_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0010185214253569958,
+      "ci95_lower": -0.0012786700824894677,
+      "ci95_upper": -0.0007798013201027311
+    },
+    "brier": {
+      "difference": -0.000262191731203901,
+      "ci95_lower": -0.00034372946920499785,
+      "ci95_upper": -0.00018620296690911422
+    }
+  },
+  {
+    "model": "M1_browse_time_placebo",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0010566983607449294,
+      "ci95_lower": -0.0013030902069917413,
+      "ci95_upper": -0.0008224840933026192
+    },
+    "brier": {
+      "difference": -0.00026704375009951626,
+      "ci95_lower": -0.0003419435452782814,
+      "ci95_upper": -0.00019686814099211414
+    }
+  },
+  {
+    "model": "M1_events_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0018136843206148737,
+      "ci95_lower": -0.00218887549582359,
+      "ci95_upper": -0.001449652986810074
+    },
+    "brier": {
+      "difference": -0.0004861185856395783,
+      "ci95_lower": -0.0006036103790280291,
+      "ci95_upper": -0.0003703716586500373
+    }
+  },
+  {
+    "model": "M1_events_placebo",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0016652225558176255,
+      "ci95_lower": -0.0020342901461676455,
+      "ci95_upper": -0.0012984345291925665
+    },
+    "brier": {
+      "difference": -0.00043493549790778164,
+      "ci95_lower": -0.0005448488076046029,
+      "ci95_upper": -0.0003274825582969775
+    }
+  },
+  {
+    "model": "M1_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    "brier": {
+      "difference": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    }
+  },
+  {
+    "model": "M_all_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.001934969580906379,
+      "ci95_lower": -0.0023507085124561083,
+      "ci95_upper": -0.001521986582598316
+    },
+    "brier": {
+      "difference": -0.0005323076243252144,
+      "ci95_lower": -0.0006599235748041992,
+      "ci95_upper": -0.0004070888909581408
+    }
+  },
+  {
+    "model": "M_all_placebo",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.001858861377983471,
+      "ci95_lower": -0.002244604171656256,
+      "ci95_upper": -0.0014850110644140553
+    },
+    "brier": {
+      "difference": -0.0004817770251897572,
+      "ci95_lower": -0.0006058155430923787,
+      "ci95_upper": -0.00036853992722588605
+    }
+  },
+  {
+    "model": "M_all_tuned",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0020986745918011107,
+      "ci95_lower": -0.0025182921338428414,
+      "ci95_upper": -0.0017041008712253647
+    },
+    "brier": {
+      "difference": -0.0005478590774369879,
+      "ci95_lower": -0.0006850071177426155,
+      "ci95_upper": -0.00041220962046319
+    }
+  },
+  {
+    "model": "M1_fixed",
+    "baseline": "M0_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.011835172592806633,
+      "ci95_lower": -0.013130392047370707,
+      "ci95_upper": -0.010535498554539776
+    },
+    "brier": {
+      "difference": -0.002897959824481991,
+      "ci95_lower": -0.0033172833607314997,
+      "ci95_upper": -0.0025063158471200072
+    }
+  },
+  {
+    "model": "M1_browse_personal_fixed",
+    "baseline": "M1_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0009745976505513551,
+      "ci95_lower": -0.0012062790908281065,
+      "ci95_upper": -0.0007519496039328518
+    },
+    "brier": {
+      "difference": -0.0002556459340148213,
+      "ci95_lower": -0.000325252498950252,
+      "ci95_upper": -0.0001881174487480899
+    }
+  },
+  {
+    "model": "M1_browse_time_fixed",
+    "baseline": "M1_browse_personal_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -4.392377480564071e-05,
+      "ci95_lower": -0.00017287859730979929,
+      "ci95_upper": 9.313143890962205e-05
+    },
+    "brier": {
+      "difference": -6.5457971890795965e-06,
+      "ci95_lower": -4.9011209678783426e-05,
+      "ci95_upper": 3.517150835534125e-05
+    }
+  },
+  {
+    "model": "M1_browse_room_fixed",
+    "baseline": "M1_browse_time_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.000648095571424532,
+      "ci95_lower": -0.0008668472213871644,
+      "ci95_upper": -0.0004343908385355765
+    },
+    "brier": {
+      "difference": -0.00015637893874526288,
+      "ci95_lower": -0.00022261613449092032,
+      "ci95_upper": -9.065734715095538e-05
+    }
+  },
+  {
+    "model": "M1_browse_actions_fixed",
+    "baseline": "M1_browse_room_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": 0.000153154098428119,
+      "ci95_lower": -3.302357931223017e-05,
+      "ci95_upper": 0.0003397608779889964
+    },
+    "brier": {
+      "difference": 2.4259683175709366e-05,
+      "ci95_lower": -3.808559672829998e-05,
+      "ci95_upper": 8.745942353452515e-05
+    }
+  },
+  {
+    "model": "M1_events_fixed",
+    "baseline": "M1_browse_actions_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.00030022142226146455,
+      "ci95_lower": -0.00048482074687410934,
+      "ci95_upper": -0.00011170549873533095
+    },
+    "brier": {
+      "difference": -9.180759886612383e-05,
+      "ci95_lower": -0.00015474934521711488,
+      "ci95_upper": -2.6453789445545402e-05
+    }
+  },
+  {
+    "model": "M_all_fixed",
+    "baseline": "M1_events_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.00012128526029150527,
+      "ci95_lower": -0.00039912986470359553,
+      "ci95_upper": 0.00016085226248362523
+    },
+    "brier": {
+      "difference": -4.6189038685636117e-05,
+      "ci95_lower": -0.00013108429315993674,
+      "ci95_upper": 4.393089298781423e-05
+    }
+  },
+  {
+    "model": "M_all_tuned",
+    "baseline": "M_all_fixed",
+    "cohort": "C",
+    "users": 981,
+    "rows": 449700,
+    "resamples": 2000,
+    "seed": 20261001,
+    "unit": "user; point-weighted metric within each resample",
+    "scope": "conditional on fixed models; excludes training and room-level dependence",
+    "log_loss": {
+      "difference": -0.0001637050108947323,
+      "ci95_lower": -0.0003297711583425384,
+      "ci95_upper": -1.9054957343835895e-06
+    },
+    "brier": {
+      "difference": -1.5551453111773404e-05,
+      "ci95_lower": -6.880164437142783e-05,
+      "ci95_upper": 3.661281941739359e-05
+    }
+  }
+]

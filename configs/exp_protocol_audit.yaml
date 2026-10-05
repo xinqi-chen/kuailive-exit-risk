@@ -1,0 +1,7 @@
+name: exp_protocol_audit
+cohort: A
+split: train
+outputs: [A1, A2, A3, A4, A5, sample_flow, delta_sensitivity]
+delta_minus_seconds: [2, 5, 10]
+delta_plus_seconds: [30, 60, 120]
+train_models: false

@@ -1,0 +1,242 @@
+{
+  "cohort": "A",
+  "split": "train",
+  "visits": 931824,
+  "cause_counts": {
+    "user": 915911,
+    "broadcast": 10765,
+    "entered_after_end": 4187,
+    "record_anomaly": 941,
+    "observation_censored": 20
+  },
+  "room_end_known": 931824,
+  "room_end_missing": 0,
+  "r0_r4": {
+    "duplicates": 0,
+    "cross_day_unmatched": 20,
+    "overlap_involved": 95740,
+    "severe_overlap": 38157,
+    "quality_ok": 931806
+  },
+  "down_lag_seconds_histogram": {
+    "[-inf, -120.0)": 2814,
+    "[-120.0, -60.0)": 470,
+    "[-60.0, -30.0)": 520,
+    "[-30.0, -10.0)": 2912,
+    "[-10.0, 0.0)": 8346,
+    "[0.0, 10.0)": 1603,
+    "[10.0, 30.0)": 2682,
+    "[30.0, 60.0)": 3770,
+    "[60.0, 120.0)": 7198,
+    "[120.0, 300.0)": 20272,
+    "[300.0, inf)": 881219
+  },
+  "same_room_reentry_gap_seconds": {
+    "n": 419268,
+    "median": 340.2315,
+    "p90": 4027.2753,
+    "p99": 30186.225010000075
+  },
+  "delta_sensitivity": [
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1654272,
+      "positive_count": 192630,
+      "positive_rate": 0.11644397051996286,
+      "delta_minus_seconds": 2,
+      "delta_plus_seconds": 30,
+      "cause_user": 916376,
+      "cause_broadcast": 10096,
+      "cause_record_anomaly": 1145
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1657519,
+      "positive_count": 195658,
+      "positive_rate": 0.11804268910341299,
+      "delta_minus_seconds": 2,
+      "delta_plus_seconds": 30,
+      "cause_user": 916376,
+      "cause_broadcast": 10096,
+      "cause_record_anomaly": 1145
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1656681,
+      "positive_count": 192630,
+      "positive_rate": 0.11627464792558133,
+      "delta_minus_seconds": 2,
+      "delta_plus_seconds": 60,
+      "cause_user": 916376,
+      "cause_broadcast": 10300,
+      "cause_record_anomaly": 941
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1659997,
+      "positive_count": 195723,
+      "positive_rate": 0.11790563476921946,
+      "delta_minus_seconds": 2,
+      "delta_plus_seconds": 60,
+      "cause_user": 916376,
+      "cause_broadcast": 10300,
+      "cause_record_anomaly": 941
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1658587,
+      "positive_count": 192630,
+      "positive_rate": 0.11614102847785494,
+      "delta_minus_seconds": 2,
+      "delta_plus_seconds": 120,
+      "cause_user": 916376,
+      "cause_broadcast": 10460,
+      "cause_record_anomaly": 781
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1661957,
+      "positive_count": 195772,
+      "positive_rate": 0.11779606812931984,
+      "delta_minus_seconds": 2,
+      "delta_plus_seconds": 120,
+      "cause_user": 916376,
+      "cause_broadcast": 10460,
+      "cause_record_anomaly": 781
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1653875,
+      "positive_count": 192513,
+      "positive_rate": 0.11640117904920264,
+      "delta_minus_seconds": 5,
+      "delta_plus_seconds": 30,
+      "cause_user": 915911,
+      "cause_broadcast": 10561,
+      "cause_record_anomaly": 1145
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1657519,
+      "positive_count": 195646,
+      "positive_rate": 0.1180354493673979,
+      "delta_minus_seconds": 5,
+      "delta_plus_seconds": 30,
+      "cause_user": 915911,
+      "cause_broadcast": 10561,
+      "cause_record_anomaly": 1145
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1656280,
+      "positive_count": 192513,
+      "positive_rate": 0.11623215881372714,
+      "delta_minus_seconds": 5,
+      "delta_plus_seconds": 60,
+      "cause_user": 915911,
+      "cause_broadcast": 10765,
+      "cause_record_anomaly": 941
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1659997,
+      "positive_count": 195711,
+      "positive_rate": 0.11789840584049248,
+      "delta_minus_seconds": 5,
+      "delta_plus_seconds": 60,
+      "cause_user": 915911,
+      "cause_broadcast": 10765,
+      "cause_record_anomaly": 941
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1658179,
+      "positive_count": 192513,
+      "positive_rate": 0.1160990460016681,
+      "delta_minus_seconds": 5,
+      "delta_plus_seconds": 120,
+      "cause_user": 915911,
+      "cause_broadcast": 10925,
+      "cause_record_anomaly": 781
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1661957,
+      "positive_count": 195760,
+      "positive_rate": 0.11778884772590385,
+      "delta_minus_seconds": 5,
+      "delta_plus_seconds": 120,
+      "cause_user": 915911,
+      "cause_broadcast": 10925,
+      "cause_record_anomaly": 781
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1653225,
+      "positive_count": 192362,
+      "positive_rate": 0.11635560797834535,
+      "delta_minus_seconds": 10,
+      "delta_plus_seconds": 30,
+      "cause_user": 915158,
+      "cause_broadcast": 11314,
+      "cause_record_anomaly": 1145
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1657519,
+      "positive_count": 195619,
+      "positive_rate": 0.11801915996136395,
+      "delta_minus_seconds": 10,
+      "delta_plus_seconds": 30,
+      "cause_user": 915158,
+      "cause_broadcast": 11314,
+      "cause_record_anomaly": 1145
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1655621,
+      "positive_count": 192362,
+      "positive_rate": 0.11618721917636947,
+      "delta_minus_seconds": 10,
+      "delta_plus_seconds": 60,
+      "cause_user": 915158,
+      "cause_broadcast": 11518,
+      "cause_record_anomaly": 941
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1659997,
+      "positive_count": 195684,
+      "positive_rate": 0.11788214075085678,
+      "delta_minus_seconds": 10,
+      "delta_plus_seconds": 60,
+      "cause_user": 915158,
+      "cause_broadcast": 11518,
+      "cause_record_anomaly": 941
+    },
+    {
+      "target": "E2-V",
+      "evaluable_h30_points": 1657511,
+      "positive_count": 192362,
+      "positive_rate": 0.1160547350816978,
+      "delta_minus_seconds": 10,
+      "delta_plus_seconds": 120,
+      "cause_user": 915158,
+      "cause_broadcast": 11678,
+      "cause_record_anomaly": 781
+    },
+    {
+      "target": "E2-A",
+      "evaluable_h30_points": 1661957,
+      "positive_count": 195733,
+      "positive_rate": 0.11777260181821791,
+      "delta_minus_seconds": 10,
+      "delta_plus_seconds": 120,
+      "cause_user": 915158,
+      "cause_broadcast": 11678,
+      "cause_record_anomaly": 781
+    }
+  ],
+  "count_feature_note": "The v1.7 predictor feature list includes fixed 24h/7d counts; cumulative user_history_count is not a model feature.",
+  "elapsed_seconds": 5.581775188446045
+}

@@ -1,0 +1,7 @@
+name: exp_learning_curve
+training_user_counts: [75, 150, 300, 600, 1000]
+training_cohort: A
+evaluation_cohort: B
+models: [M1, M1_browse]
+use_frozen_A1000_cutpoints: true
+hyperparameters: fixed

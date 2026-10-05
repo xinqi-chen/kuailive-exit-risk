@@ -1,0 +1,19 @@
+# data and derived row-level files are never committed
+/data/
+artifacts/
+runs/
+*.parquet
+*.npy
+*.joblib
+*.pkl
+
+# environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.egg-info/
+
+# Private migration planning documents
+/docs/internal/

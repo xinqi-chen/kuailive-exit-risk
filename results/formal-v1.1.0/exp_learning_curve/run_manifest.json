@@ -1,0 +1,7 @@
+{
+  "git_commit": "27ad4e19dfbdffb04a633c41fdde29d7d28c0218",
+  "code": "scripts/run_learning_curve.py",
+  "input_feature_manifest_sha256": "3bf7714c5d77b44e735e1cb2b47813a7d7c6ffe99e1cba7a61346e72728e64e1",
+  "elapsed_seconds": 438.3143050670624,
+  "peak_rss_gib": 6.00732421875
+}

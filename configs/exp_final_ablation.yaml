@@ -1,0 +1,19 @@
+name: exp_final_ablation
+train_cohort: A
+development_cohort: B
+test_cohort: C
+fixed_models: [M0, M1, M1_browse_personal, M1_browse_time, M1_browse_room, M1_browse_actions, M1_events, M_all]
+tuned_models: [M_all_tuned]
+placebo: true
+metrics: [h30_log_loss, h30_brier, h30_auc, h30_ap, interval_log_loss, interval_brier, interval_auc, interval_ap]
+C_evaluation_requires_source_input_and_model_freeze: true
+
+entry_state_features:
+  source: raw inputs via data/processed/$KUAILIVE_RUN_ID/visits/{A,B,C}/block_*.parquet
+  join_key: visit_id
+  fields: [enter_live_action, live_source_category]
+  category_fit: A visits with split=train only
+  minimum_training_visit_count: 1000
+  missing_rare_or_unseen: other
+  one_hot_vocabulary: configs/entry_category_vocab.json
+  cumulative_from: M0

@@ -1,0 +1,637 @@
+{
+ "source": "imgkkk2004/KuaiLive-M3",
+ "revision": "417923d442a793b3e92cc7e079dd4b73fe706c30",
+ "interaction": {
+  "columns": [
+   "user_id",
+   "author_id",
+   "live_id",
+   "live_play_start_timestamp",
+   "live_play_end_timestamp",
+   "p_date",
+   "live_source_category",
+   "enter_live_action",
+   "is_auto_play",
+   "is_follow_enter",
+   "is_follow_leave",
+   "play_duration",
+   "like_cnt",
+   "comment_cnt",
+   "send_gift_cnt",
+   "send_gift_num",
+   "follow_author_cnt",
+   "cancel_follow_author_cnt",
+   "share_cnt",
+   "report_live_cnt"
+  ],
+  "types": {
+   "user_id": "BIGINT",
+   "author_id": "BIGINT",
+   "live_id": "BIGINT",
+   "live_play_start_timestamp": "TIMESTAMP",
+   "live_play_end_timestamp": "TIMESTAMP",
+   "p_date": "VARCHAR",
+   "live_source_category": "VARCHAR",
+   "enter_live_action": "VARCHAR",
+   "is_auto_play": "BIGINT",
+   "is_follow_enter": "BIGINT",
+   "is_follow_leave": "BIGINT",
+   "play_duration": "BIGINT",
+   "like_cnt": "BIGINT",
+   "comment_cnt": "BIGINT",
+   "send_gift_cnt": "BIGINT",
+   "send_gift_num": "BIGINT",
+   "follow_author_cnt": "BIGINT",
+   "cancel_follow_author_cnt": "BIGINT",
+   "share_cnt": "BIGINT",
+   "report_live_cnt": "BIGINT"
+  },
+  "n_rows": 35806596,
+  "users": 21938,
+  "authors": 1061343,
+  "live_ids": 6564013,
+  "start_min": "2026-03-03 16:00:00",
+  "end_max": "2026-03-31 15:59:59.999",
+  "p_date_min": "20260304",
+  "p_date_max": "20260331",
+  "p_dates": 28,
+  "nulls": {
+   "user_id": 0,
+   "author_id": 0,
+   "live_id": 0,
+   "live_play_start_timestamp": 0,
+   "live_play_end_timestamp": 0,
+   "p_date": 0,
+   "live_source_category": 0,
+   "enter_live_action": 0,
+   "is_auto_play": 0,
+   "is_follow_enter": 0,
+   "is_follow_leave": 0,
+   "play_duration": 0,
+   "like_cnt": 0,
+   "comment_cnt": 0,
+   "send_gift_cnt": 0,
+   "send_gift_num": 0,
+   "follow_author_cnt": 0,
+   "cancel_follow_author_cnt": 0,
+   "share_cnt": 0,
+   "report_live_cnt": 0
+  },
+  "play_duration_ms_quantiles": {
+   "p01": 570.0,
+   "p05": 965.0,
+   "p10": 1163.0,
+   "p25": 1861.0,
+   "p50": 6168.0,
+   "p75": 33656.0,
+   "p90": 187057.0,
+   "p95": 524230.25,
+   "p99": 2456654.199999988,
+   "p999": 6807502.935000032,
+   "max": 9999959
+  },
+  "duration_shares": {
+   "nonpositive": 0.0,
+   "under_5s": 0.45430272120812604,
+   "under_30s": 0.7374435425249583,
+   "at_least_60s": 0.1892394351029626,
+   "at_least_600s": 0.04489220365990668,
+   "at_least_1h": 0.005365128815931009,
+   "endpoint_mismatch_over_5s": 0.0
+  },
+  "duration_hist": [
+   {
+    "bin": "<1s",
+    "n": 2067470
+   },
+   {
+    "bin": "1-5min",
+    "n": 4105499
+   },
+   {
+    "bin": "30-60s",
+    "n": 2625233
+   },
+   {
+    "bin": "5-30min",
+    "n": 2129428
+   },
+   {
+    "bin": ">=30min",
+    "n": 541093
+   },
+   {
+    "bin": "1-3s",
+    "n": 10999265
+   },
+   {
+    "bin": "5-10s",
+    "n": 4815859
+   },
+   {
+    "bin": "3-5s",
+    "n": 3200299
+   },
+   {
+    "bin": "10-30s",
+    "n": 5322450
+   }
+  ],
+  "live_source_category": [
+   {
+    "value": "follow",
+    "n": 19951707
+   },
+   {
+    "value": "featured_feed",
+    "n": 5979447
+   },
+   {
+    "value": "find_feed",
+    "n": 3493539
+   },
+   {
+    "value": "nearby",
+    "n": 2069383
+   },
+   {
+    "value": "other",
+    "n": 1863755
+   },
+   {
+    "value": "search",
+    "n": 587008
+   },
+   {
+    "value": "find_tab",
+    "n": 553140
+   },
+   {
+    "value": "detail_head",
+    "n": 468699
+   },
+   {
+    "value": "live_more_square",
+    "n": 296587
+   },
+   {
+    "value": "fanstop_award",
+    "n": 157477
+   },
+   {
+    "value": "profile",
+    "n": 157402
+   },
+   {
+    "value": "live_end",
+    "n": 116239
+   },
+   {
+    "value": "live_square",
+    "n": 39120
+   },
+   {
+    "value": "app_out_push",
+    "n": 25517
+   },
+   {
+    "value": "live_jump",
+    "n": 17260
+   },
+   {
+    "value": "live_out_push",
+    "n": 13487
+   },
+   {
+    "value": "home_live_square",
+    "n": 11712
+   },
+   {
+    "value": "live_push",
+    "n": 3160
+   },
+   {
+    "value": "featured_live_square",
+    "n": 1664
+   },
+   {
+    "value": "kuaishou_coin_task",
+    "n": 228
+   },
+   {
+    "value": "arrow",
+    "n": 65
+   }
+  ],
+  "enter_live_action": [
+   {
+    "value": "SLIDE_UP_ENTER",
+    "n": 18963902
+   },
+   {
+    "value": "CLICK_ENTER",
+    "n": 13023223
+   },
+   {
+    "value": "SLIDE_DOWN_ENTER",
+    "n": 2455227
+   },
+   {
+    "value": "OTHER",
+    "n": 591721
+   },
+   {
+    "value": "UNKNOWN",
+    "n": 465230
+   },
+   {
+    "value": "SCHEMA_ENTER",
+    "n": 169418
+   },
+   {
+    "value": "AUTO_ENTER",
+    "n": 108846
+   },
+   {
+    "value": "RETURE_REFER_LIVE",
+    "n": 29029
+   }
+  ],
+  "flags": {
+   "is_auto_play": 0.08010518508936175,
+   "is_follow_enter": 0.6109842443554254,
+   "is_follow_leave": 0.6160824670404302
+  },
+  "actions": {
+   "like_cnt": {
+    "share_positive": 0.03537208619328126,
+    "mean": 5.549212943894472,
+    "p99": 45.0,
+    "max_value": 94685,
+    "total": 198698426
+   },
+   "comment_cnt": {
+    "share_positive": 0.04136651247161277,
+    "mean": 0.5571770910588653,
+    "p99": 5.0,
+    "max_value": 100472,
+    "total": 19950615
+   },
+   "send_gift_cnt": {
+    "share_positive": 0.009665174539350237,
+    "mean": 0.0422597836443319,
+    "p99": 0.0,
+    "max_value": 2408,
+    "total": 1513179
+   },
+   "send_gift_num": {
+    "share_positive": 0.00959236672483472,
+    "mean": 0.2376030662060141,
+    "p99": 0.0,
+    "max_value": 62702,
+    "total": 8507757
+   },
+   "follow_author_cnt": {
+    "share_positive": 0.0066181381776698345,
+    "mean": 0.006670586614823704,
+    "p99": 0.0,
+    "max_value": 257,
+    "total": 238851
+   },
+   "cancel_follow_author_cnt": {
+    "share_positive": 0.002524618648474711,
+    "mean": 0.0025579923877712364,
+    "p99": 0.0,
+    "max_value": 48,
+    "total": 91593
+   },
+   "share_cnt": {
+    "share_positive": 0.0027205602006959836,
+    "mean": 0.006011769451639581,
+    "p99": 0.0,
+    "max_value": 241,
+    "total": 215261
+   },
+   "report_live_cnt": {
+    "share_positive": 0.0005625499838074527,
+    "mean": 0.002288265547498567,
+    "p99": 0.0,
+    "max_value": 294,
+    "total": 81935
+   }
+  },
+  "rows_by_p_date": [
+   {
+    "p_date": "20260304",
+    "n": 1203230
+   },
+   {
+    "p_date": "20260305",
+    "n": 1194016
+   },
+   {
+    "p_date": "20260306",
+    "n": 1178467
+   },
+   {
+    "p_date": "20260307",
+    "n": 1244164
+   },
+   {
+    "p_date": "20260308",
+    "n": 1319115
+   },
+   {
+    "p_date": "20260309",
+    "n": 1210885
+   },
+   {
+    "p_date": "20260310",
+    "n": 1224349
+   },
+   {
+    "p_date": "20260311",
+    "n": 1218875
+   },
+   {
+    "p_date": "20260312",
+    "n": 1248020
+   },
+   {
+    "p_date": "20260313",
+    "n": 1293954
+   },
+   {
+    "p_date": "20260314",
+    "n": 1384616
+   },
+   {
+    "p_date": "20260315",
+    "n": 1349382
+   },
+   {
+    "p_date": "20260316",
+    "n": 1273610
+   },
+   {
+    "p_date": "20260317",
+    "n": 1320530
+   },
+   {
+    "p_date": "20260318",
+    "n": 1331754
+   },
+   {
+    "p_date": "20260319",
+    "n": 1314100
+   },
+   {
+    "p_date": "20260320",
+    "n": 1277766
+   },
+   {
+    "p_date": "20260321",
+    "n": 1315845
+   },
+   {
+    "p_date": "20260322",
+    "n": 1355973
+   },
+   {
+    "p_date": "20260323",
+    "n": 1266031
+   },
+   {
+    "p_date": "20260324",
+    "n": 1276858
+   },
+   {
+    "p_date": "20260325",
+    "n": 1282172
+   },
+   {
+    "p_date": "20260326",
+    "n": 1294541
+   },
+   {
+    "p_date": "20260327",
+    "n": 1264244
+   },
+   {
+    "p_date": "20260328",
+    "n": 1312053
+   },
+   {
+    "p_date": "20260329",
+    "n": 1347273
+   },
+   {
+    "p_date": "20260330",
+    "n": 1262036
+   },
+   {
+    "p_date": "20260331",
+    "n": 1242737
+   }
+  ],
+  "local_hour": [
+   {
+    "h": 0,
+    "n": 1553176
+   },
+   {
+    "h": 1,
+    "n": 874995
+   },
+   {
+    "h": 2,
+    "n": 528075
+   },
+   {
+    "h": 3,
+    "n": 366087
+   },
+   {
+    "h": 4,
+    "n": 316724
+   },
+   {
+    "h": 5,
+    "n": 414652
+   },
+   {
+    "h": 6,
+    "n": 705456
+   },
+   {
+    "h": 7,
+    "n": 901716
+   },
+   {
+    "h": 8,
+    "n": 1021554
+   },
+   {
+    "h": 9,
+    "n": 1155774
+   },
+   {
+    "h": 10,
+    "n": 1270904
+   },
+   {
+    "h": 11,
+    "n": 1407248
+   },
+   {
+    "h": 12,
+    "n": 1663120
+   },
+   {
+    "h": 13,
+    "n": 1657940
+   },
+   {
+    "h": 14,
+    "n": 1613281
+   },
+   {
+    "h": 15,
+    "n": 1568586
+   },
+   {
+    "h": 16,
+    "n": 1523247
+   },
+   {
+    "h": 17,
+    "n": 1549765
+   },
+   {
+    "h": 18,
+    "n": 1775104
+   },
+   {
+    "h": 19,
+    "n": 2339929
+   },
+   {
+    "h": 20,
+    "n": 2931184
+   },
+   {
+    "h": 21,
+    "n": 3296867
+   },
+   {
+    "h": 22,
+    "n": 3055254
+   },
+   {
+    "h": 23,
+    "n": 2315958
+   }
+  ],
+  "per_user": {
+   "visits_p10_p50_p90": [
+    111.0,
+    753.0,
+    3915.2999999999993
+   ],
+   "visits_max": 67865,
+   "active_days_p50": 28.0,
+   "authors_p50": 189.0,
+   "watch_hours_p50_p90": [
+    29.768713194444445,
+    138.40403919444444
+   ]
+  },
+  "exact_duplicate_rows": 755
+ },
+ "room_meta": {
+  "types": {
+   "author_id": "BIGINT",
+   "live_id": "BIGINT",
+   "live_name": "VARCHAR",
+   "start_timestamp": "TIMESTAMP",
+   "end_timestamp": "TIMESTAMP",
+   "live_duration": "DOUBLE"
+  },
+  "n_rows": 6564013,
+  "live_ids": 6564013,
+  "authors": 1061343,
+  "end_null": 26888,
+  "start_null": 0,
+  "name_null": 751473,
+  "end_before_start": 0,
+  "start_min": "2026-02-24 18:24:10.588",
+  "start_max": "2026-03-31 15:59:16.75",
+  "end_max": "2026-03-31 15:59:59.937",
+  "dur_p25_p50_p75_p90_p99": [
+   4090880.0,
+   7434332.0,
+   12391123.0,
+   21237068.6,
+   111429467.59999618
+  ],
+  "dur_max": 604818032.0,
+  "end_minus_start_p50_s": 7434.332
+ },
+ "coverage": {
+  "interaction_room_meta_match": 1.0,
+  "interaction_room_author_match": 1.0,
+  "visit_ends_after_room_end_5s": 0.011743171565373038
+ },
+ "like": {
+  "n_rows": 49540590,
+  "users": 20483,
+  "live_ids": 568262,
+  "ts_min": "2026-03-03 15:59:56.818",
+  "ts_max": "2026-03-31 15:59:59.038",
+  "ts_null": 0,
+  "per_user_p50": 164.0,
+  "per_user_p90": 3728.7999999999993
+ },
+ "comment": {
+  "n_rows": 8281923,
+  "users": 20521,
+  "live_ids": 668995,
+  "ts_min": "2026-03-03 15:59:59.669",
+  "ts_max": "2026-03-31 15:59:59.148",
+  "emoji_placeholder_share": 0.04409870608521863,
+  "content_len_p50": 6.0,
+  "content_null": 2,
+  "lines_in_file": 8281923
+ },
+ "embedding": {
+  "parts": 18,
+  "rows": 88223794,
+  "types": {
+   "live_stream_id": "string",
+   "segment_id": "string",
+   "feature_128": "list<item: float>",
+   "timestamp": "int64"
+  },
+  "live_streams_approx": 6108894,
+  "ts_min": "2026-03-03 15:59:57.271",
+  "ts_max": "2026-03-31 15:59:59.972",
+  "sample": "1% of live_stream_id by hash, all parts",
+  "dim_min": 128,
+  "dim_max": 128,
+  "gap_s_p10_p50_p90": [
+   31.645,
+   65.761,
+   2160.7497
+  ],
+  "duplicate_timestamp_share": 1.2447099825740602e-06,
+  "segments_per_stream_p50_p90": [
+   5.0,
+   27.0
+  ],
+  "segments_per_stream_max": 4266
+ },
+ "user_id_set": {
+  "rows": 21938
+ },
+ "elapsed_seconds": 68.6605396270752
+}

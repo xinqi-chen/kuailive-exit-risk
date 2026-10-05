@@ -1,0 +1,7 @@
+repo_id: imgkkk2004/KuaiLive-M3
+revision: 417923d442a793b3e92cc7e079dd4b73fe706c30
+observation_start_utc: 2026-03-03T16:00:00Z
+observation_end_utc_exclusive: 2026-03-31T16:00:00Z
+train_end_utc_exclusive: 2026-03-21T16:00:00Z
+validation_end_utc_exclusive: 2026-03-26T16:00:00Z
+test_end_utc_exclusive: 2026-03-31T16:00:00Z

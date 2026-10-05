@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kuailive-exit-risk"
+version = "0.1.0"
+description = "Reproducible viewer exit-risk experiments for KuaiLive-M3"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<4",
+  "pyarrow>=18",
+  "polars>=1.20",
+  "PyYAML>=6",
+  "lightgbm>=4.5",
+  "scikit-learn>=1.5",
+  "joblib>=1.4",
+  "matplotlib>=3.9",
+  "huggingface_hub>=0.30",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

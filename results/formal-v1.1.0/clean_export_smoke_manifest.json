@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "data_revision": "417923d442a793b3e92cc7e079dd4b73fe706c30",
+  "users": 20,
+  "train_users": 16,
+  "test_users": 4,
+  "cohort_user_ids_sha256": "445bd5366573a558435cd7303eec9dcf885c99654ccc9a91dffb27f175f2cbc8",
+  "raw_interaction_rows_scanned": 35806596,
+  "candidate_interaction_rows": 1526982,
+  "selected_interaction_rows": 36270,
+  "selected_rooms": 19522,
+  "selected_room_metadata_rows": 19522,
+  "visits": 34723,
+  "train_person_period_rows": 86499,
+  "validation_person_period_rows": 22309,
+  "test_h30_points": 2358,
+  "test_h30_all_points": 2423,
+  "test_h30_metrics": {
+    "n": 2358,
+    "positive_count": 203,
+    "positive_rate": 0.08608990670059373,
+    "log_loss": 0.27202970107765406,
+    "brier": 0.07449785930255136,
+    "auc": 0.7003028813733672,
+    "ap": 0.21031391232940283
+  },
+  "feature_consistency": {
+    "status": "not_requested"
+  },
+  "model": "M1_browse",
+  "best_iteration": 96,
+  "content_embeddings_used": false,
+  "elapsed_seconds": 80.4706130027771,
+  "raw_inputs": [
+    "user_id_set.csv",
+    "live_interaction.csv",
+    "live_room_meta.parquet"
+  ],
+  "pipeline_code": "new-repository modules only; no legacy feature shards or model artifacts read"
+}

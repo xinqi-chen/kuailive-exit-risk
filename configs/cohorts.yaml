@@ -1,0 +1,14 @@
+selection_window_start_utc: 2026-03-26T16:00:00Z
+selection_window_end_utc_exclusive: 2026-03-31T16:00:00Z
+train_users: 300
+A_users: 1000
+B_users: 300
+C_users: 1000
+sort: SHA-256(user_id) ascending, then user_id
+exclude_B_from_A: true
+exclude_A_and_B_from_C: true
+require_test_window_view_for_C: true
+expected_selected_user_ids_sha256:
+  A: b32ff7f5af4870c313c044c1ebf5207de68af7441160f2ce23b3c9903f799be3
+  B: c52bde3ec34c51ab5e6cf375113c3f306a1e7ffa16f71c83ef5cada6137e527a
+  C: ebcdc56e807e63c897ccfc2765a210b9ff0e0b65960ce59ef45d599c031aa6a5

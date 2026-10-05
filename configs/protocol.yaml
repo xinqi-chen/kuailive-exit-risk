@@ -1,0 +1,9 @@
+g_seconds: 1
+delta_minus_seconds: 5
+delta_plus_seconds: 60
+observation_buffer_seconds: 5
+overlap_policy: window
+landmarks:
+  first_offset_seconds: 30
+  step_seconds: 30
+  max_offset_seconds: 600

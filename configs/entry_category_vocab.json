@@ -1,0 +1,123 @@
+{
+  "fit_cohort": "A",
+  "fit_split": "train",
+  "minimum_visit_count": 1000,
+  "fields": {
+    "enter_live_action": {
+      "kept_categories": [
+        "CLICK_ENTER",
+        "OTHER",
+        "SCHEMA_ENTER",
+        "SLIDE_DOWN_ENTER",
+        "SLIDE_UP_ENTER",
+        "UNKNOWN"
+      ],
+      "categories_including_other": [
+        "CLICK_ENTER",
+        "OTHER",
+        "SCHEMA_ENTER",
+        "SLIDE_DOWN_ENTER",
+        "SLIDE_UP_ENTER",
+        "UNKNOWN",
+        "other"
+      ],
+      "internal_other_sentinel": "\u0000OTHER"
+    },
+    "live_source_category": {
+      "kept_categories": [
+        "detail_head",
+        "fanstop_award",
+        "featured_feed",
+        "find_feed",
+        "find_tab",
+        "follow",
+        "live_end",
+        "live_more_square",
+        "live_square",
+        "nearby",
+        "other",
+        "profile",
+        "search"
+      ],
+      "categories_including_other": [
+        "detail_head",
+        "fanstop_award",
+        "featured_feed",
+        "find_feed",
+        "find_tab",
+        "follow",
+        "live_end",
+        "live_more_square",
+        "live_square",
+        "nearby",
+        "other",
+        "profile",
+        "search",
+        "other"
+      ],
+      "internal_other_sentinel": "\u0000OTHER"
+    }
+  },
+  "feature_columns": {
+    "enter_live_action": [
+      "entry_enter_live_action_7eaf3d86a8ce",
+      "entry_enter_live_action_1c55d9b826e8",
+      "entry_enter_live_action_30d38ba0de46",
+      "entry_enter_live_action_c147066b75f1",
+      "entry_enter_live_action_f1161a87fb75",
+      "entry_enter_live_action_23759997b3c5",
+      "entry_enter_live_action_68ac753c29f0"
+    ],
+    "live_source_category": [
+      "entry_live_source_category_b6a0e98c4d4a",
+      "entry_live_source_category_7e081f2c06aa",
+      "entry_live_source_category_d81a29d8e892",
+      "entry_live_source_category_b02f5e28efc2",
+      "entry_live_source_category_fdd860aaf12f",
+      "entry_live_source_category_a3ce0b6106cd",
+      "entry_live_source_category_749f010c2fa2",
+      "entry_live_source_category_82b2b2d2c98c",
+      "entry_live_source_category_6fff4b7f005b",
+      "entry_live_source_category_71ed8bd8993d",
+      "entry_live_source_category_d9298a10d1b0",
+      "entry_live_source_category_1900eab6c028",
+      "entry_live_source_category_241932906782",
+      "entry_live_source_category_68ac753c29f0"
+    ]
+  },
+  "training_counts": {
+    "enter_live_action": {
+      "SLIDE_UP_ENTER": 496026,
+      "CLICK_ENTER": 350566,
+      "SLIDE_DOWN_ENTER": 50722,
+      "OTHER": 14355,
+      "UNKNOWN": 13364,
+      "SCHEMA_ENTER": 5721,
+      "RETURE_REFER_LIVE": 936,
+      "AUTO_ENTER": 134
+    },
+    "live_source_category": {
+      "follow": 506153,
+      "featured_feed": 172275,
+      "find_feed": 90600,
+      "other": 52006,
+      "nearby": 47770,
+      "search": 16496,
+      "find_tab": 14079,
+      "detail_head": 13599,
+      "profile": 5287,
+      "live_more_square": 4808,
+      "fanstop_award": 3843,
+      "live_end": 2025,
+      "live_square": 1089,
+      "live_jump": 679,
+      "app_out_push": 644,
+      "live_out_push": 179,
+      "home_live_square": 177,
+      "live_push": 103,
+      "featured_live_square": 8,
+      "kuaishou_coin_task": 3,
+      "arrow": 1
+    }
+  }
+}

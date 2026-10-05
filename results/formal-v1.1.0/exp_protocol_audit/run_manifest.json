@@ -1,0 +1,32 @@
+{
+  "experiment": "exp_protocol_audit",
+  "git_commit": "27ad4e19dfbdffb04a633c41fdde29d7d28c0218",
+  "config": {
+    "cohort": "A",
+    "split": "train",
+    "delta_minus_seconds": [
+      2,
+      5,
+      10
+    ],
+    "delta_plus_seconds": [
+      30,
+      60,
+      120
+    ]
+  },
+  "input_sha256": {
+    "r0_r4_manifest.json": "5ff0a352fbb80ee3884365aa768349da7e46407c1023cd4bd4a0a00c320fc01f",
+    "block_000.parquet": "5033575058136db6d7e064ca8492ce4a55ec332f3b845eb2fa3e092e834b73ef",
+    "block_001.parquet": "ca4525876230f0a4878eee175efaafe079d09bb2016306deca6347672c2fc867",
+    "block_002.parquet": "630b2878398506882963638eb029bbbc36371d3aee226285f1ff02ece41c2676",
+    "block_003.parquet": "5715395fe4ffcd8cd5804b077f8ab178e3ffdea52d4f843660051f6cfb87a2c1",
+    "block_004.parquet": "470e9f204b11ba9e1a23437324481216fe17158322c3c7c982861081ba360804",
+    "block_005.parquet": "a1ed4d56fecd7c6ff84101063f3ab57a8a6998285fdcd31060d672527c67f527",
+    "block_006.parquet": "86d867251873a4d3a58132ddc0cbf18b83ac8aceda44916f1dcd03e7896dfad4",
+    "block_007.parquet": "c510332b206573fc244825179c044390e164cd1a0f229b3b7cea58af73d6de44",
+    "block_008.parquet": "0cfaf046e544a159f78e5a41dbb02fd611fdac5f4ef2f3468a08073d696ddf14",
+    "block_009.parquet": "e0728ca247b68f9996e083be067a0f71162a9a60eba95d114b30cf371eda6d45"
+  },
+  "elapsed_seconds": 5.581775188446045
+}

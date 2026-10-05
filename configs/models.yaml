@@ -1,0 +1,24 @@
+seed: 20261001
+threads: 4
+repaired:
+  tuned_models:
+  - M_all_tuned
+  fixed:
+    num_leaves: 31
+    learning_rate: 0.05
+    min_child_samples: 100
+    feature_fraction: 1.0
+    n_estimators: 3000
+    early_stopping_rounds: 100
+  tuned_grid:
+    n_estimators: 3000
+    early_stopping_rounds: 100
+    selected_candidate: 6
+    params:
+      num_leaves: 127
+      learning_rate: 0.03
+      min_child_samples: 300
+      feature_fraction: 1.0
+    params_source: Preselected D8 configuration; no hyperparameter selection on post-audit
+      B or C
+    candidate_records_source: results/archive/pre-audit-20261005/exp_final_ablation/v17_tuning_candidate_record.csv

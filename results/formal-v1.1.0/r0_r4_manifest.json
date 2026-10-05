@@ -1,0 +1,1116 @@
+{
+  "data_revision": "417923d442a793b3e92cc7e079dd4b73fe706c30",
+  "blocks": [
+    {
+      "cohort": "A",
+      "block": 0,
+      "users": 100,
+      "source_rows": 181299,
+      "R0_R1": {
+        "sessions": 181073,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 2,
+        "cross_day_stitches": 226,
+        "cross_day_rows_removed": 226,
+        "overlap_later_rows": 80496,
+        "severe_overlap_later_rows": 7542,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 181073,
+        "room_end_known": 179763,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1890,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 167446,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 181073,
+        "after_exact_dedup": 181071,
+        "exact_duplicates_removed": 2,
+        "r1_midnight_rows": 280,
+        "r1_stitches_in_lineage": 226,
+        "r1_unmatched_midnight_rows": 54,
+        "after_r2_visits": 172751,
+        "r2_segments_absorbed": 8320,
+        "g_ms": 1000,
+        "overlap_visits": 7592,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 170314,
+          "broadcast": 1568,
+          "entered_after_end": 684,
+          "record_anomaly": 171,
+          "observation_censored": 14
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 1,
+      "users": 100,
+      "source_rows": 153921,
+      "R0_R1": {
+        "sessions": 153672,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 1,
+        "cross_day_stitches": 249,
+        "cross_day_rows_removed": 249,
+        "overlap_later_rows": 55009,
+        "severe_overlap_later_rows": 7335,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 153672,
+        "room_end_known": 152392,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1661,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 139782,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 153672,
+        "after_exact_dedup": 153671,
+        "exact_duplicates_removed": 1,
+        "r1_midnight_rows": 292,
+        "r1_stitches_in_lineage": 249,
+        "r1_unmatched_midnight_rows": 43,
+        "after_r2_visits": 144481,
+        "r2_segments_absorbed": 9190,
+        "g_ms": 1000,
+        "overlap_visits": 7180,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 142263,
+          "broadcast": 1596,
+          "entered_after_end": 490,
+          "record_anomaly": 121,
+          "observation_censored": 11
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 2,
+      "users": 100,
+      "source_rows": 156010,
+      "R0_R1": {
+        "sessions": 155800,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 1,
+        "cross_day_stitches": 210,
+        "cross_day_rows_removed": 210,
+        "overlap_later_rows": 60089,
+        "severe_overlap_later_rows": 6226,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 155800,
+        "room_end_known": 154980,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2188,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 144208,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 155800,
+        "after_exact_dedup": 155799,
+        "exact_duplicates_removed": 1,
+        "r1_midnight_rows": 273,
+        "r1_stitches_in_lineage": 210,
+        "r1_unmatched_midnight_rows": 63,
+        "after_r2_visits": 148244,
+        "r2_segments_absorbed": 7555,
+        "g_ms": 1000,
+        "overlap_visits": 6351,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 145406,
+          "broadcast": 1749,
+          "entered_after_end": 877,
+          "record_anomaly": 193,
+          "observation_censored": 19
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 3,
+      "users": 100,
+      "source_rows": 134770,
+      "R0_R1": {
+        "sessions": 134557,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 213,
+        "cross_day_rows_removed": 213,
+        "overlap_later_rows": 52858,
+        "severe_overlap_later_rows": 5038,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 134557,
+        "room_end_known": 133777,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1795,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 125132,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 134557,
+        "after_exact_dedup": 134557,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 252,
+        "r1_stitches_in_lineage": 213,
+        "r1_unmatched_midnight_rows": 39,
+        "after_r2_visits": 128161,
+        "r2_segments_absorbed": 6396,
+        "g_ms": 1000,
+        "overlap_visits": 5101,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 125788,
+          "broadcast": 1617,
+          "entered_after_end": 581,
+          "record_anomaly": 159,
+          "observation_censored": 16
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 4,
+      "users": 100,
+      "source_rows": 137090,
+      "R0_R1": {
+        "sessions": 136856,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 234,
+        "cross_day_rows_removed": 234,
+        "overlap_later_rows": 51035,
+        "severe_overlap_later_rows": 5484,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 136856,
+        "room_end_known": 135805,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1983,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 126600,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 136856,
+        "after_exact_dedup": 136856,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 288,
+        "r1_stitches_in_lineage": 234,
+        "r1_unmatched_midnight_rows": 54,
+        "after_r2_visits": 129504,
+        "r2_segments_absorbed": 7352,
+        "g_ms": 1000,
+        "overlap_visits": 5763,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 127012,
+          "broadcast": 1787,
+          "entered_after_end": 522,
+          "record_anomaly": 172,
+          "observation_censored": 11
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 5,
+      "users": 100,
+      "source_rows": 128604,
+      "R0_R1": {
+        "sessions": 128407,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 1,
+        "cross_day_stitches": 197,
+        "cross_day_rows_removed": 197,
+        "overlap_later_rows": 38909,
+        "severe_overlap_later_rows": 3163,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 128407,
+        "room_end_known": 127602,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1490,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 122341,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 128407,
+        "after_exact_dedup": 128406,
+        "exact_duplicates_removed": 1,
+        "r1_midnight_rows": 221,
+        "r1_stitches_in_lineage": 197,
+        "r1_unmatched_midnight_rows": 24,
+        "after_r2_visits": 121833,
+        "r2_segments_absorbed": 6573,
+        "g_ms": 1000,
+        "overlap_visits": 3209,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 119950,
+          "broadcast": 1359,
+          "entered_after_end": 407,
+          "record_anomaly": 108,
+          "observation_censored": 9
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 6,
+      "users": 100,
+      "source_rows": 149736,
+      "R0_R1": {
+        "sessions": 149493,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 1,
+        "cross_day_stitches": 243,
+        "cross_day_rows_removed": 243,
+        "overlap_later_rows": 53632,
+        "severe_overlap_later_rows": 4892,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 149493,
+        "room_end_known": 148686,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1987,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 140325,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 149493,
+        "after_exact_dedup": 149492,
+        "exact_duplicates_removed": 1,
+        "r1_midnight_rows": 287,
+        "r1_stitches_in_lineage": 243,
+        "r1_unmatched_midnight_rows": 44,
+        "after_r2_visits": 141973,
+        "r2_segments_absorbed": 7519,
+        "g_ms": 1000,
+        "overlap_visits": 5163,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 139358,
+          "broadcast": 1857,
+          "entered_after_end": 643,
+          "record_anomaly": 108,
+          "observation_censored": 7
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 7,
+      "users": 100,
+      "source_rows": 205003,
+      "R0_R1": {
+        "sessions": 204770,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 233,
+        "cross_day_rows_removed": 233,
+        "overlap_later_rows": 102595,
+        "severe_overlap_later_rows": 7820,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 204770,
+        "room_end_known": 203284,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2041,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 190073,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 204770,
+        "after_exact_dedup": 204770,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 296,
+        "r1_stitches_in_lineage": 233,
+        "r1_unmatched_midnight_rows": 63,
+        "after_r2_visits": 193202,
+        "r2_segments_absorbed": 11568,
+        "g_ms": 1000,
+        "overlap_visits": 9712,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 190467,
+          "broadcast": 1858,
+          "entered_after_end": 724,
+          "record_anomaly": 138,
+          "observation_censored": 15
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 8,
+      "users": 100,
+      "source_rows": 150322,
+      "R0_R1": {
+        "sessions": 150109,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 3,
+        "cross_day_stitches": 213,
+        "cross_day_rows_removed": 213,
+        "overlap_later_rows": 55218,
+        "severe_overlap_later_rows": 6419,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 150109,
+        "room_end_known": 149426,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2519,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 137985,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 150109,
+        "after_exact_dedup": 150106,
+        "exact_duplicates_removed": 3,
+        "r1_midnight_rows": 262,
+        "r1_stitches_in_lineage": 213,
+        "r1_unmatched_midnight_rows": 49,
+        "after_r2_visits": 139460,
+        "r2_segments_absorbed": 10646,
+        "g_ms": 1000,
+        "overlap_visits": 6453,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 136365,
+          "broadcast": 2054,
+          "entered_after_end": 812,
+          "record_anomaly": 215,
+          "observation_censored": 14
+        }
+      }
+    },
+    {
+      "cohort": "A",
+      "block": 9,
+      "users": 100,
+      "source_rows": 136463,
+      "R0_R1": {
+        "sessions": 136316,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 12,
+        "cross_day_stitches": 147,
+        "cross_day_rows_removed": 147,
+        "overlap_later_rows": 60038,
+        "severe_overlap_later_rows": 4971,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 136316,
+        "room_end_known": 135678,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1455,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 127135,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 136316,
+        "after_exact_dedup": 136304,
+        "exact_duplicates_removed": 12,
+        "r1_midnight_rows": 199,
+        "r1_stitches_in_lineage": 147,
+        "r1_unmatched_midnight_rows": 52,
+        "after_r2_visits": 129161,
+        "r2_segments_absorbed": 7143,
+        "g_ms": 1000,
+        "overlap_visits": 5118,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 127120,
+          "broadcast": 1249,
+          "entered_after_end": 689,
+          "record_anomaly": 96,
+          "observation_censored": 7
+        }
+      }
+    },
+    {
+      "cohort": "B",
+      "block": 0,
+      "users": 100,
+      "source_rows": 158223,
+      "R0_R1": {
+        "sessions": 158064,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 2,
+        "cross_day_stitches": 159,
+        "cross_day_rows_removed": 159,
+        "overlap_later_rows": 64307,
+        "severe_overlap_later_rows": 5219,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 158064,
+        "room_end_known": 156926,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1778,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 148219,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 158064,
+        "after_exact_dedup": 158062,
+        "exact_duplicates_removed": 2,
+        "r1_midnight_rows": 214,
+        "r1_stitches_in_lineage": 159,
+        "r1_unmatched_midnight_rows": 55,
+        "after_r2_visits": 150586,
+        "r2_segments_absorbed": 7476,
+        "g_ms": 1000,
+        "overlap_visits": 5626,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 148318,
+          "broadcast": 1454,
+          "entered_after_end": 648,
+          "record_anomaly": 154,
+          "observation_censored": 12
+        }
+      }
+    },
+    {
+      "cohort": "B",
+      "block": 1,
+      "users": 100,
+      "source_rows": 109752,
+      "R0_R1": {
+        "sessions": 109604,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 4,
+        "cross_day_stitches": 148,
+        "cross_day_rows_removed": 148,
+        "overlap_later_rows": 41427,
+        "severe_overlap_later_rows": 3600,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 109604,
+        "room_end_known": 109063,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1463,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 102844,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 109604,
+        "after_exact_dedup": 109600,
+        "exact_duplicates_removed": 4,
+        "r1_midnight_rows": 191,
+        "r1_stitches_in_lineage": 148,
+        "r1_unmatched_midnight_rows": 43,
+        "after_r2_visits": 102751,
+        "r2_segments_absorbed": 6849,
+        "g_ms": 1000,
+        "overlap_visits": 3536,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 100840,
+          "broadcast": 1076,
+          "entered_after_end": 605,
+          "record_anomaly": 216,
+          "observation_censored": 14
+        }
+      }
+    },
+    {
+      "cohort": "B",
+      "block": 2,
+      "users": 100,
+      "source_rows": 155718,
+      "R0_R1": {
+        "sessions": 155526,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 192,
+        "cross_day_rows_removed": 192,
+        "overlap_later_rows": 64139,
+        "severe_overlap_later_rows": 6105,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 155526,
+        "room_end_known": 154715,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2032,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 144051,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 155526,
+        "after_exact_dedup": 155526,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 242,
+        "r1_stitches_in_lineage": 192,
+        "r1_unmatched_midnight_rows": 50,
+        "after_r2_visits": 147386,
+        "r2_segments_absorbed": 8140,
+        "g_ms": 1000,
+        "overlap_visits": 6029,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 144733,
+          "broadcast": 1737,
+          "entered_after_end": 753,
+          "record_anomaly": 144,
+          "observation_censored": 19
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 0,
+      "users": 100,
+      "source_rows": 154381,
+      "R0_R1": {
+        "sessions": 154153,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 7,
+        "cross_day_stitches": 228,
+        "cross_day_rows_removed": 228,
+        "overlap_later_rows": 65916,
+        "severe_overlap_later_rows": 8208,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 154153,
+        "room_end_known": 152737,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1798,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 139173,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 154153,
+        "after_exact_dedup": 154146,
+        "exact_duplicates_removed": 7,
+        "r1_midnight_rows": 296,
+        "r1_stitches_in_lineage": 228,
+        "r1_unmatched_midnight_rows": 68,
+        "after_r2_visits": 144510,
+        "r2_segments_absorbed": 9636,
+        "g_ms": 1000,
+        "overlap_visits": 7090,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 142136,
+          "broadcast": 1594,
+          "entered_after_end": 613,
+          "record_anomaly": 154,
+          "observation_censored": 13
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 1,
+      "users": 100,
+      "source_rows": 145796,
+      "R0_R1": {
+        "sessions": 145628,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 3,
+        "cross_day_stitches": 168,
+        "cross_day_rows_removed": 168,
+        "overlap_later_rows": 63957,
+        "severe_overlap_later_rows": 4610,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 145628,
+        "room_end_known": 144893,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1924,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 136937,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 145628,
+        "after_exact_dedup": 145625,
+        "exact_duplicates_removed": 3,
+        "r1_midnight_rows": 237,
+        "r1_stitches_in_lineage": 168,
+        "r1_unmatched_midnight_rows": 69,
+        "after_r2_visits": 138341,
+        "r2_segments_absorbed": 7284,
+        "g_ms": 1000,
+        "overlap_visits": 5397,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 135886,
+          "broadcast": 1620,
+          "entered_after_end": 631,
+          "record_anomaly": 185,
+          "observation_censored": 19
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 2,
+      "users": 100,
+      "source_rows": 159464,
+      "R0_R1": {
+        "sessions": 159242,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 4,
+        "cross_day_stitches": 222,
+        "cross_day_rows_removed": 222,
+        "overlap_later_rows": 70900,
+        "severe_overlap_later_rows": 9219,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 159242,
+        "room_end_known": 158193,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2689,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 142801,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 159242,
+        "after_exact_dedup": 159239,
+        "exact_duplicates_removed": 3,
+        "r1_midnight_rows": 308,
+        "r1_stitches_in_lineage": 222,
+        "r1_unmatched_midnight_rows": 86,
+        "after_r2_visits": 147383,
+        "r2_segments_absorbed": 11856,
+        "g_ms": 1000,
+        "overlap_visits": 8938,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 144162,
+          "broadcast": 2298,
+          "entered_after_end": 686,
+          "record_anomaly": 224,
+          "observation_censored": 13
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 3,
+      "users": 100,
+      "source_rows": 192935,
+      "R0_R1": {
+        "sessions": 192712,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 3,
+        "cross_day_stitches": 223,
+        "cross_day_rows_removed": 223,
+        "overlap_later_rows": 81050,
+        "severe_overlap_later_rows": 6525,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 192712,
+        "room_end_known": 191585,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2267,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 180770,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 192712,
+        "after_exact_dedup": 192709,
+        "exact_duplicates_removed": 3,
+        "r1_midnight_rows": 303,
+        "r1_stitches_in_lineage": 223,
+        "r1_unmatched_midnight_rows": 80,
+        "after_r2_visits": 183772,
+        "r2_segments_absorbed": 8937,
+        "g_ms": 1000,
+        "overlap_visits": 6646,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 180788,
+          "broadcast": 1987,
+          "entered_after_end": 766,
+          "record_anomaly": 215,
+          "observation_censored": 16
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 4,
+      "users": 100,
+      "source_rows": 148756,
+      "R0_R1": {
+        "sessions": 148574,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 182,
+        "cross_day_rows_removed": 182,
+        "overlap_later_rows": 59788,
+        "severe_overlap_later_rows": 7319,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 148574,
+        "room_end_known": 147433,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1747,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 135058,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 148574,
+        "after_exact_dedup": 148574,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 246,
+        "r1_stitches_in_lineage": 182,
+        "r1_unmatched_midnight_rows": 64,
+        "after_r2_visits": 141182,
+        "r2_segments_absorbed": 7392,
+        "g_ms": 1000,
+        "overlap_visits": 7361,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 138874,
+          "broadcast": 1504,
+          "entered_after_end": 607,
+          "record_anomaly": 179,
+          "observation_censored": 18
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 5,
+      "users": 100,
+      "source_rows": 178024,
+      "R0_R1": {
+        "sessions": 177810,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 214,
+        "cross_day_rows_removed": 214,
+        "overlap_later_rows": 71074,
+        "severe_overlap_later_rows": 6260,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 177810,
+        "room_end_known": 176833,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2402,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 166263,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 177810,
+        "after_exact_dedup": 177810,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 255,
+        "r1_stitches_in_lineage": 214,
+        "r1_unmatched_midnight_rows": 41,
+        "after_r2_visits": 168048,
+        "r2_segments_absorbed": 9762,
+        "g_ms": 1000,
+        "overlap_visits": 6236,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 164869,
+          "broadcast": 2093,
+          "entered_after_end": 864,
+          "record_anomaly": 206,
+          "observation_censored": 16
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 6,
+      "users": 100,
+      "source_rows": 160324,
+      "R0_R1": {
+        "sessions": 160079,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 1,
+        "cross_day_stitches": 245,
+        "cross_day_rows_removed": 245,
+        "overlap_later_rows": 58466,
+        "severe_overlap_later_rows": 8225,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 160079,
+        "room_end_known": 159108,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1769,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 145042,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 160079,
+        "after_exact_dedup": 160078,
+        "exact_duplicates_removed": 1,
+        "r1_midnight_rows": 343,
+        "r1_stitches_in_lineage": 245,
+        "r1_unmatched_midnight_rows": 98,
+        "after_r2_visits": 151325,
+        "r2_segments_absorbed": 8753,
+        "g_ms": 1000,
+        "overlap_visits": 8166,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 148952,
+          "broadcast": 1676,
+          "entered_after_end": 543,
+          "record_anomaly": 136,
+          "observation_censored": 18
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 7,
+      "users": 100,
+      "source_rows": 178485,
+      "R0_R1": {
+        "sessions": 178290,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 195,
+        "cross_day_rows_removed": 195,
+        "overlap_later_rows": 87391,
+        "severe_overlap_later_rows": 8474,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 178290,
+        "room_end_known": 177336,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 2026,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 162814,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 178290,
+        "after_exact_dedup": 178290,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 258,
+        "r1_stitches_in_lineage": 195,
+        "r1_unmatched_midnight_rows": 63,
+        "after_r2_visits": 167411,
+        "r2_segments_absorbed": 10879,
+        "g_ms": 1000,
+        "overlap_visits": 8489,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 164799,
+          "broadcast": 1617,
+          "entered_after_end": 823,
+          "record_anomaly": 159,
+          "observation_censored": 13
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 8,
+      "users": 100,
+      "source_rows": 141093,
+      "R0_R1": {
+        "sessions": 140890,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 0,
+        "cross_day_stitches": 203,
+        "cross_day_rows_removed": 203,
+        "overlap_later_rows": 63188,
+        "severe_overlap_later_rows": 4829,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 140890,
+        "room_end_known": 140051,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1627,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 131831,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 140890,
+        "after_exact_dedup": 140890,
+        "exact_duplicates_removed": 0,
+        "r1_midnight_rows": 257,
+        "r1_stitches_in_lineage": 203,
+        "r1_unmatched_midnight_rows": 54,
+        "after_r2_visits": 133238,
+        "r2_segments_absorbed": 7652,
+        "g_ms": 1000,
+        "overlap_visits": 5535,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 130922,
+          "broadcast": 1614,
+          "entered_after_end": 567,
+          "record_anomaly": 121,
+          "observation_censored": 14
+        }
+      }
+    },
+    {
+      "cohort": "C",
+      "block": 9,
+      "users": 100,
+      "source_rows": 148688,
+      "R0_R1": {
+        "sessions": 148444,
+        "users": 100,
+        "cleaning_rule_version": "cross_day_stitch_v1",
+        "exact_duplicates": 46,
+        "cross_day_stitches": 244,
+        "cross_day_rows_removed": 244,
+        "overlap_later_rows": 60140,
+        "severe_overlap_later_rows": 6189,
+        "room_id_multiple_meta_rows": 0,
+        "room_meta_matched": 148444,
+        "room_end_known": 147501,
+        "sessions_ending_after_room_end_by_more_than_tolerance": 1808,
+        "duration_error_ms_quantiles": {
+          "0.5": 0.0,
+          "0.9": 0.0,
+          "0.99": 0.0
+        },
+        "quality_ok": 137365,
+        "session_start_min_utc": "2026-03-03 16:00:00+00:00",
+        "session_end_max_utc": "2026-03-31 15:59:59.999000+00:00"
+      },
+      "R2_R4": {
+        "input_rows": 148444,
+        "after_exact_dedup": 148400,
+        "exact_duplicates_removed": 44,
+        "r1_midnight_rows": 350,
+        "r1_stitches_in_lineage": 244,
+        "r1_unmatched_midnight_rows": 106,
+        "after_r2_visits": 139575,
+        "r2_segments_absorbed": 8825,
+        "g_ms": 1000,
+        "overlap_visits": 5741,
+        "old_overlap_quarantine": false,
+        "causes": {
+          "user": 137073,
+          "broadcast": 1634,
+          "entered_after_end": 736,
+          "record_anomaly": 114,
+          "observation_censored": 18
+        }
+      }
+    }
+  ],
+  "cohort_users": {
+    "A": 1000,
+    "B": 300,
+    "C": 1000
+  },
+  "raw_interaction_rows_extracted": 3564857,
+  "target_rooms": 1307438
+}

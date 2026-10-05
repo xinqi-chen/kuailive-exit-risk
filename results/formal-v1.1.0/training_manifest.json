@@ -1,0 +1,334 @@
+{
+  "arrays": {
+    "train": {
+      "rows": 3523367
+    },
+    "validation": {
+      "rows": 988373
+    }
+  },
+  "models": {
+    "M0_fixed": {
+      "best_iteration": 651,
+      "sha256": "630b14bc8a441f80a36bcb0d379e47f10685cfb0a4a75bb645338535fb344ac6",
+      "seconds": 24.60502600669861,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M1_fixed": {
+      "best_iteration": 2137,
+      "sha256": "35c76620faedeeaf555c3c8085a4ca8b0896d34058c59eb3d261f2c23e1df7d3",
+      "seconds": 80.14234185218811,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M1_browse_personal_fixed": {
+      "best_iteration": 3000,
+      "sha256": "aed5f172a2964b6958b74d7db55e10d9e6f716c5ba914d236c141457bdafb52f",
+      "seconds": 142.6187002658844,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M1_browse_time_fixed": {
+      "best_iteration": 2757,
+      "sha256": "afe2e3fc93dec32b79520dd1912f4559638067dbba933a95beeb5a66696fad1c",
+      "seconds": 161.09740114212036,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M1_browse_room_fixed": {
+      "best_iteration": 2251,
+      "sha256": "b25e79a3c004ce7989baec5ff05a60923f26d74e9d1690276b27f03ed252cacb",
+      "seconds": 158.9805166721344,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M1_browse_actions_fixed": {
+      "best_iteration": 2999,
+      "sha256": "5137dc876fd7dd007a8aaa75d915fa870b7dae8110a5e7aaf90f392a27b23930",
+      "seconds": 196.9664499759674,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M1_events_fixed": {
+      "best_iteration": 2780,
+      "sha256": "8fbc2f2c7c14a4857c08a2e1592a1190c575225a1e78208fba7ae0d4b88af383",
+      "seconds": 189.70804500579834,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M_all_fixed": {
+      "best_iteration": 2996,
+      "sha256": "0e0614aa9c657068f02998b5abbb6ffc5408420296e908678259df4a9c818f76",
+      "seconds": 1138.512146949768,
+      "params": {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 100,
+        "feature_fraction": 1.0
+      }
+    },
+    "M_all_tuned": {
+      "model": "M_all_tuned",
+      "candidate": 6,
+      "params": {
+        "num_leaves": 127,
+        "learning_rate": 0.03,
+        "min_child_samples": 300,
+        "feature_fraction": 1.0
+      },
+      "validation_log_loss": 0.41858386518945,
+      "best_iteration": 1996,
+      "seconds": 1186.3987801074982,
+      "candidate_selection_source": "Preselected D8 configuration; no hyperparameter selection on post-audit B or C",
+      "sha256": "8c0b06fd5ba8a662c5287e0575d3037302c9f7c962df05c559c3703b664ea87d"
+    },
+    "M1_browse_personal_placebo": {
+      "best_iteration": 2543,
+      "sha256": "de641b8b23d22d71f412742ffa65a365ca3ba1831952da26603d2398844df0be",
+      "permuted_block": [
+        "browse_starts_60s",
+        "browse_starts_300s",
+        "browse_starts_900s",
+        "browse_ends_60s",
+        "browse_ends_300s",
+        "browse_ends_900s",
+        "browse_last1_duration_seconds",
+        "browse_last2_duration_seconds",
+        "browse_last3_duration_seconds",
+        "browse_recent5_under5_fraction",
+        "browse_last_start_age_seconds",
+        "browse_fast_swipe_streak",
+        "browse_active_segment_seconds",
+        "browse_active_segment_visits"
+      ]
+    },
+    "M1_browse_time_placebo": {
+      "best_iteration": 2816,
+      "sha256": "90df121f566b7bf23c21ea5e8745513217c616dee9db57515065ec32410ada68",
+      "permuted_block": [
+        "browse_local_hour",
+        "browse_local_weekday"
+      ]
+    },
+    "M1_browse_room_placebo": {
+      "best_iteration": 2173,
+      "sha256": "d9597cb60fcf8f74d6dcf0baa52c5d70d078f3c0948727b229fce8abf0f64db0",
+      "permuted_block": [
+        "room_other_present",
+        "room_other_entries_60s",
+        "room_other_exits_60s",
+        "room_other_net_entries_60s",
+        "room_sample_covered"
+      ]
+    },
+    "M1_browse_actions_placebo": {
+      "best_iteration": 2940,
+      "sha256": "a045f75c6f7fe3541391aff4b8ba96dcc9501f3e4389a518f831d69bebae6ac1",
+      "permuted_block": [
+        "browse_past_gift_fraction",
+        "browse_past_like_fraction",
+        "browse_past_comment_fraction"
+      ]
+    },
+    "M1_events_placebo": {
+      "best_iteration": 2260,
+      "sha256": "2fe1426c608eb62aab1150e59b0daf1222c761bbde9871ab4f87ce1442abd2ac",
+      "permuted_block": [
+        "own_like_60s",
+        "own_like_300s",
+        "own_like_900s",
+        "own_comment_60s",
+        "own_comment_300s",
+        "own_comment_900s",
+        "room_other_like_60s",
+        "room_other_like_300s",
+        "room_other_like_900s",
+        "room_other_comment_60s",
+        "room_other_comment_300s",
+        "room_other_comment_900s"
+      ]
+    },
+    "M_all_placebo": {
+      "best_iteration": 1826,
+      "sha256": "090d278119e02373e8e5feb0a6c3f514e9bd811a247cfb34a636f171c12a5c90",
+      "permuted_block": [
+        "has_past_embedding",
+        "embedding_age_seconds",
+        "available_age_seconds",
+        "emb_000",
+        "emb_001",
+        "emb_002",
+        "emb_003",
+        "emb_004",
+        "emb_005",
+        "emb_006",
+        "emb_007",
+        "emb_008",
+        "emb_009",
+        "emb_010",
+        "emb_011",
+        "emb_012",
+        "emb_013",
+        "emb_014",
+        "emb_015",
+        "emb_016",
+        "emb_017",
+        "emb_018",
+        "emb_019",
+        "emb_020",
+        "emb_021",
+        "emb_022",
+        "emb_023",
+        "emb_024",
+        "emb_025",
+        "emb_026",
+        "emb_027",
+        "emb_028",
+        "emb_029",
+        "emb_030",
+        "emb_031",
+        "emb_032",
+        "emb_033",
+        "emb_034",
+        "emb_035",
+        "emb_036",
+        "emb_037",
+        "emb_038",
+        "emb_039",
+        "emb_040",
+        "emb_041",
+        "emb_042",
+        "emb_043",
+        "emb_044",
+        "emb_045",
+        "emb_046",
+        "emb_047",
+        "emb_048",
+        "emb_049",
+        "emb_050",
+        "emb_051",
+        "emb_052",
+        "emb_053",
+        "emb_054",
+        "emb_055",
+        "emb_056",
+        "emb_057",
+        "emb_058",
+        "emb_059",
+        "emb_060",
+        "emb_061",
+        "emb_062",
+        "emb_063",
+        "emb_064",
+        "emb_065",
+        "emb_066",
+        "emb_067",
+        "emb_068",
+        "emb_069",
+        "emb_070",
+        "emb_071",
+        "emb_072",
+        "emb_073",
+        "emb_074",
+        "emb_075",
+        "emb_076",
+        "emb_077",
+        "emb_078",
+        "emb_079",
+        "emb_080",
+        "emb_081",
+        "emb_082",
+        "emb_083",
+        "emb_084",
+        "emb_085",
+        "emb_086",
+        "emb_087",
+        "emb_088",
+        "emb_089",
+        "emb_090",
+        "emb_091",
+        "emb_092",
+        "emb_093",
+        "emb_094",
+        "emb_095",
+        "emb_096",
+        "emb_097",
+        "emb_098",
+        "emb_099",
+        "emb_100",
+        "emb_101",
+        "emb_102",
+        "emb_103",
+        "emb_104",
+        "emb_105",
+        "emb_106",
+        "emb_107",
+        "emb_108",
+        "emb_109",
+        "emb_110",
+        "emb_111",
+        "emb_112",
+        "emb_113",
+        "emb_114",
+        "emb_115",
+        "emb_116",
+        "emb_117",
+        "emb_118",
+        "emb_119",
+        "emb_120",
+        "emb_121",
+        "emb_122",
+        "emb_123",
+        "emb_124",
+        "emb_125",
+        "emb_126",
+        "emb_127"
+      ]
+    }
+  },
+  "tuning_candidates": [
+    {
+      "model": "M_all_tuned",
+      "candidate": 6,
+      "params": {
+        "num_leaves": 127,
+        "learning_rate": 0.03,
+        "min_child_samples": 300,
+        "feature_fraction": 1.0
+      },
+      "validation_log_loss": 0.41858386518945,
+      "best_iteration": 1996,
+      "seconds": 1186.3987801074982,
+      "candidate_selection_source": "Preselected D8 configuration; no hyperparameter selection on post-audit B or C"
+    }
+  ]
+}

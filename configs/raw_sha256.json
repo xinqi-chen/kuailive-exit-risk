@@ -1,0 +1,28 @@
+{
+  "revision": "417923d442a793b3e92cc7e079dd4b73fe706c30",
+  "files": {
+    "live_comment.csv": "e55912d0bbf2e7ed485d8e81479dd762d74ae766e935bbfa139ceee9483042af",
+    "live_emb_128_ts/live_emb_128_ts_part00.parquet": "798811a848c1ca0a3eed07876e9ccde0dcbdcae2e2367dddfe7d607795c08b63",
+    "live_emb_128_ts/live_emb_128_ts_part01.parquet": "a833fa81188adde44cf7798080afd42573e423148d4a48182ecd9ed729b191b9",
+    "live_emb_128_ts/live_emb_128_ts_part02.parquet": "790a3c9cc1a15f8b20bb90d8284c2cef5b7e2c385d1c81e8eed97926b99a8ce0",
+    "live_emb_128_ts/live_emb_128_ts_part03.parquet": "a777ca6df2654f58e9771b5dc6dc5e84fb77830e879940821e09afd8653259d4",
+    "live_emb_128_ts/live_emb_128_ts_part04.parquet": "2ce0b11fa349bde98a9bd1c3c6ad2cf8f0c062f5536adc38db160da5bb211bfd",
+    "live_emb_128_ts/live_emb_128_ts_part05.parquet": "bdb662863ef69ed90839bac1edf02f838ce7c8bfa60ce9bc84a23bedd346ed48",
+    "live_emb_128_ts/live_emb_128_ts_part06.parquet": "6d6c268009b81f1af89250be25079eacac6235bec54683109d184aacd76d94b1",
+    "live_emb_128_ts/live_emb_128_ts_part07.parquet": "d3c5696003f1d6e8ddc556a5f3528ef091f8353c9d6f9d8bbbc3c356531cf54a",
+    "live_emb_128_ts/live_emb_128_ts_part08.parquet": "08f3d5969ebadc208d9475d4ffcf48ca055c9f8d7d1ad8faf02fd0435bc7f0a1",
+    "live_emb_128_ts/live_emb_128_ts_part09.parquet": "6ff8572000786a35518d60e9693bf7458740df5153c43ab143de55559a1cb184",
+    "live_emb_128_ts/live_emb_128_ts_part10.parquet": "37a54ea3157a288fdeff42880539b670777bc1acaab6e6ff0e5d45270b06d865",
+    "live_emb_128_ts/live_emb_128_ts_part11.parquet": "c7edcac5e521a8193ea8b7c10854eb96ca260aa4b7a8247df451a982948cf621",
+    "live_emb_128_ts/live_emb_128_ts_part12.parquet": "4a842ff416775d5afed140277a15d0bf31dc331fc9b50296a0d7c51aef05b2cb",
+    "live_emb_128_ts/live_emb_128_ts_part13.parquet": "b7b5b0beed40c0e1ec298a40649748b8139f96d8f31750bb9396618cb0ecadb4",
+    "live_emb_128_ts/live_emb_128_ts_part14.parquet": "46a0435404bf98c193e52644772da6c4e6aa43fb6bac3eb123468abd75aa403d",
+    "live_emb_128_ts/live_emb_128_ts_part15.parquet": "cc510de0597f7e83aef72d481d64d33ba843e38145897690431d4ff1e44b036d",
+    "live_emb_128_ts/live_emb_128_ts_part16.parquet": "110f70d4b0f4b51e3967dcfb91b106778430771e1c4277316d0d0d0ff8b93327",
+    "live_emb_128_ts/live_emb_128_ts_part17.parquet": "81a5b9a6a009d44d610603e99d223bec67f9abc2dfb04416757a1dad7a1ae3f9",
+    "live_interaction.csv": "2db0daab66ec18062d453cdbbc43cbb44f75559914ef53756dfd6635812ec653",
+    "live_like.csv": "40621988b2cfec6c8fd16f34cf47cadd2e12f3b29250c217325267b5cf121383",
+    "live_room_meta.parquet": "130986065f8fff7cb1146a7c6508979cf0df60f39a7d923f35003e1f29f0599a",
+    "user_id_set.csv": "5e3fd517ba31b2efada8ec2574ff2d702eb267ad6e733fb5cdfce9a4e5e62e5f"
+  }
+}

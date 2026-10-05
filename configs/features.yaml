@@ -1,0 +1,24 @@
+feature_groups:
+  state:
+    columns: [elapsed_watch_seconds, room_elapsed_seconds, room_start_missing, is_auto_play, is_follow_enter, entry_enter_live_action_7eaf3d86a8ce, entry_enter_live_action_1c55d9b826e8, entry_enter_live_action_30d38ba0de46, entry_enter_live_action_c147066b75f1, entry_enter_live_action_f1161a87fb75, entry_enter_live_action_23759997b3c5, entry_enter_live_action_68ac753c29f0, entry_live_source_category_b6a0e98c4d4a, entry_live_source_category_7e081f2c06aa, entry_live_source_category_d81a29d8e892, entry_live_source_category_b02f5e28efc2, entry_live_source_category_fdd860aaf12f, entry_live_source_category_a3ce0b6106cd, entry_live_source_category_749f010c2fa2, entry_live_source_category_82b2b2d2c98c, entry_live_source_category_6fff4b7f005b, entry_live_source_category_71ed8bd8993d, entry_live_source_category_d9298a10d1b0, entry_live_source_category_1900eab6c028, entry_live_source_category_241932906782, entry_live_source_category_68ac753c29f0]
+    categorical_sources: [enter_live_action, live_source_category]
+    category_fit: A train visits only; categories below 1000 visits and missing values map to other
+    encoding: one-hot
+    cumulative_model: M0
+  history:
+    source: history columns of the frozen predictor list (stage D8) not in state
+    cumulative_model: M1
+  browse_personal:
+    source: PERSONAL
+  local_time:
+    source: LOCAL_TIME
+  room_audience:
+    source: ROOM
+  past_actions:
+    source: ACTIONS
+    cumulative_model: M1_browse
+  events:
+    source: EVENT_FEATURES
+  content:
+    source: CONTENT_META + 128 embeddings
+    cumulative_model: M_all

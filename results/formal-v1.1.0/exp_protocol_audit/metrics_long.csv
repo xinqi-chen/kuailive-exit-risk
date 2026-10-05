@@ -1,0 +1,12 @@
+metric,bin,count
+down_lag_seconds,"[-inf, -120.0)",2814
+down_lag_seconds,"[-120.0, -60.0)",470
+down_lag_seconds,"[-60.0, -30.0)",520
+down_lag_seconds,"[-30.0, -10.0)",2912
+down_lag_seconds,"[-10.0, 0.0)",8346
+down_lag_seconds,"[0.0, 10.0)",1603
+down_lag_seconds,"[10.0, 30.0)",2682
+down_lag_seconds,"[30.0, 60.0)",3770
+down_lag_seconds,"[60.0, 120.0)",7198
+down_lag_seconds,"[120.0, 300.0)",20272
+down_lag_seconds,"[300.0, inf)",881219
