@@ -44,8 +44,12 @@ def main():
         f"`{edges}` (seconds), and the model predicts the probability that the user leaves within that interval. "
         'The interval metrics below evaluate exactly this output.', '',
         'Cohorts: A trains (first 18 days) and early-stops (next 5 days); B (300 users) and C (1,000 users) are '
-        'held-out test cohorts on the last 5 days. No B or C visit or label is used for training, early stopping, '
-        'or feature or parameter choice. Code, inputs and model files are hash-frozen before C is scored once.', '']
+        'test cohorts disjoint from A on the last 5 days. Model fitting and early stopping use only supervised '
+        'rows and labels from A; the tuned parameters come from an earlier search on A validation. B and C '
+        'contribute no supervised training rows or labels. Room-context features aggregate already observed '
+        'logs from all released sampled users, including users in B and C, without using their future labels. '
+        'C was also evaluated as a test cohort in earlier model experiments. The code, inputs and model files '
+        'are hash-frozen before the single C evaluation within this run.', '']
 
     primaries = {}
     for cohort, filename in [('C', 'C_metrics_long.csv'), ('B', 'metrics_long.csv')]:
@@ -72,7 +76,7 @@ def main():
         'leaving in the next 30 s at checkpoints t = 30, 60, …, 570 s, assuming a constant hazard inside each interval '
         '(a 30 s window inside a 255 s interval receives 30/255 of that interval\'s cumulative hazard). Elapsed time, '
         'broadcast age and clock fields move with the window; other features stay at their value at t. The labels are '
-        'observed exits in [t, t + 30 s). This is a secondary, approximate summary; it does not cover the first 30 s of a visit.', '']
+        'observed exits in (t, t + 30 s]: an exit exactly at t + 30 s is included; a visit ending at t is not at risk. This is a secondary, approximate summary; it does not cover the first 30 s of a visit.', '']
     for cohort in ('C', 'B'):
         p = primaries[cohort].reset_index()
         bs = pd.DataFrame([{**{k: r[k] for k in ['model', 'baseline', 'users', 'rows']}, **r['log_loss']}

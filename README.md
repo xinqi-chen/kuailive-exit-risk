@@ -97,8 +97,12 @@ Features use only information from before each interval starts.
 - **A** (1,000 users) trains on the first 18 days and early-stops on the next 5.
 - **B** (300 users) and **C** (1,000 users) are test sets on the last 5 days.
 
-No B or C visit or label is used for training, early stopping or tuning. Before C is scored, the code,
-inputs and model files are frozen by hash.
+Model fitting and early stopping use only supervised rows and labels from A. The tuned parameters
+come from an earlier search on A validation; B and C contribute no supervised training rows or labels.
+Room-context features aggregate already observed logs from all released sampled users, including
+users in B and C. This supplies observable room context, not their future labels. C was also evaluated
+as a test cohort in earlier model experiments; in this run it is scored once after the code, inputs
+and model files are frozen by hash.
 
 **Models.** They are nested: each one adds a block to the one before.
 
